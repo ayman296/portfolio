@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayman Mohamed - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <nav class="fixed w-full bg-navy-900 text-white p-4 shadow-md z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Ayman Mohamed</h1>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#home" class="hover:text-green-400">Home</a></li>
+                <li><a href="#about" class="hover:text-green-400">About</a></li>
+                <li><a href="#skills" class="hover:text-green-400">Skills</a></li>
+                <li><a href="#portfolio" class="hover:text-green-400">Portfolio</a></li>
+                <li><a href="#reviews" class="hover:text-green-400">Reviews</a></li>
+                <li><a href="#contact" class="hover:text-green-400">Contact</a></li>
+            </ul>
+            <button class="md:hidden text-white focus:outline-none">
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <header id="home" class="min-h-screen bg-gradient-to-b from-navy-900 to-gray-800 text-white flex items-center">
+        <div class="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
+            <img src="your-photo.jpg" alt="Ayman Mohamed" class="w-64 h-64 rounded-full mb-6 md:mb-0 md:mr-10">
+            <div>
+                <h1 class="text-4xl font-bold mb-4">Welcome to Ayman Mohamed's Portfolio</h1>
+                <p class="text-lg mb-6">UX/UI & Full-Stack Web Developer | Transforming Ideas into Seamless Digital Experiences</p>
+                <a href="#contact" class="bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-navy-900 mb-6 text-center">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <img src="your-photo.jpg" alt="Ayman Mohamed" class="w-48 h-48 rounded-full mb-6 md:mb-0 md:mr-10">
+                <p class="text-gray-700 leading-relaxed">
+                    I am Ayman Mohamed, a passionate and skilled UX/UI designer and full-stack web developer with over three years of experience in crafting user-centric digital solutions. I specialize in creating intuitive interfaces, developing robust web applications, and delivering projects that exceed client expectations. My expertise spans front-end technologies like HTML, CSS, JavaScript, and React, as well as back-end frameworks such as Node.js and Python. I thrive on collaboration, innovation, and ensuring every project aligns with the client’s vision and goals.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-navy-900 mb-6 text-center">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded shadow-md text-center">
+                    <h3 class="text-xl font-semibold text-navy-900">Technical Skills</h3>
+                    <ul class="mt-4 text-gray-700">
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>React, Node.js, Python</li>
+                        <li>Figma, Adobe XD</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md text-center">
+                    <h3 class="text-xl font-semibold text-navy-900">Design Skills</h3>
+                    <ul class="mt-4 text-gray-700">
+                        <li>Responsive Design</li>
+                        <li>UI/UX Optimization</li>
+                        <li>API Integration</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md text-center">
+                    <h3 class="text-xl font-semibold text-navy-900">Soft Skills</h3>
+                    <ul class="mt-4 text-gray-700">
+                        <li>Problem-Solving</li>
+                        <li>Client Collaboration</li>
+                        <li>Project Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-navy-900 mb-6 text-center">Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-100 p-6 rounded shadow-md">
+                    <h3 class="text-xl font-semibold text-navy-900">E-commerce Platform Redesign</h3>
+                    <p class="text-gray-700 mt-2">Revamped an e-commerce site with modern UX/UI, improving user retention by 30%. Technologies: React, Node.js, Figma.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded shadow-md">
+                    <h3 class="text-xl font-semibold text-navy-900">Corporate Dashboard</h3>
+                    <p class="text-gray-700 mt-2">Developed a custom dashboard for real-time data visualization. Technologies: Python, JavaScript, D3.js.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded shadow-md">
+                    <h3 class="text-xl font-semibold text-navy-900">Responsive Web App</h3>
+                    <p class="text-gray-700 mt-2">Created a responsive web application for client project management. Technologies: HTML, CSS, React.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-navy-900 mb-6 text-center">Client Reviews</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded shadow-md text-center">
+                    <p class="text-green-500 text-xl">★★★★★</p>
+                    <p class="text-gray-700 mt-2">"A cooperative freelancing translator who has a high respect for his clients."</p>
+                    <p class="text-sm text-gray-500 mt-2">Upwork Client</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md text-center">
+                    <p class="text-green-500 text-xl">★★★★★</p>
+                    <p class="text-gray-700 mt-2">"Turn around time was great!"</p>
+                    <p class="text-sm text-gray-500 mt-2">Upwork Client</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md text-center">
+                    <p class="text-green-500 text-xl">★★★★★</p>
+                    <p class="text-gray-700 mt-2">"Jobs are always completed in a timely manner."</p>
+                    <p class="text-sm text-gray-500 mt-2">Upwork Client</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md text-center">
+                    <p class="text-green-500 text-xl">★★★★★</p>
+                    <p class="text-gray-700 mt-2">"Excellent service as always!"</p>
+                    <p class="text-sm text-gray-500 mt-2">Upwork Client</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-md text-center">
+                    <p class="text-green-500 text-xl">★★★★★</p>
+                    <p class="text-gray-700 mt-2">"Arabic phrase recording task, Saudi Arabia accent needed."</p>
+                    <p class="text-sm text-gray-500 mt-2">Upwork Client</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-navy-900 mb-6 text-center">Contact Me</h2>
+            <div class="flex flex-col md:flex-row gap-6">
+                <form id="contact-form" class="w-full md:w-1/2 bg-gray-100 p-6 rounded shadow-md">
+                    <input type="text" name="name" placeholder="Name" class="w-full p-2 mb-4 border rounded">
+                    <input type="email" name="email" placeholder="Email" class="w-full p-2 mb-4 border rounded">
+                    <input type="text" name="subject" placeholder="Subject" class="w-full p-2 mb-4 border rounded">
+                    <textarea name="message" placeholder="Message" class="w-full p-2 mb-4 border rounded" rows="4"></textarea>
+                    <input type="file" name="file" id="file-upload" class="w-full p-2 mb-4 border rounded" accept=".jpg,.png,.pdf,.txt">
+                    <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Send Message</button>
+                </form>
+                <div class="w-full md:w-1/2 text-gray-700">
+                    <p class="flex items-center mb-2"><i class="fas fa-envelope mr-2 text-green-500"></i> Email: <a href="mailto:aymoon25@bk.ru" class="text-navy-900 hover:text-green-400 ml-1">aymoon25@bk.ru</a></p>
+                    <p class="flex items-center mb-2"><i class="fab fa-whatsapp mr-2 text-green-500"></i> WhatsApp: <a href="https://wa.me/+79867081669" class="text-navy-900 hover:text-green-400 ml-1">+7 986 708-16-69</a></p>
+                    <p class="flex items-center mb-2"><i class="fab fa-upwork mr-2 text-green-500"></i> Upwork: <a href="https://www.upwork.com/freelancers/~017f5de9eb033c8dfe" class="text-navy-900 hover:text-green-400 ml-1">Profile</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-navy-900 text-white py-6 text-center">
+        <p>© 2025 Ayman Mohamed. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+:root {
+    --navy: #1E3A8A;
+    --green: #10B981;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-navy-900 { background-color: var(--navy); }
+.text-navy-900 { color: var(--navy); }
+.bg-green-500 { background-color: var(--green); }
+.hover:bg-green-600:hover { background-color: #059669; }
+
+nav ul {
+    list-style: none;
+}
+
+nav button:focus + ul, nav button:hover + ul {
+    display: block;
+}
+
+#file-upload {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+
+#file-upload:focus {
+    outline: none;
+    border-color: var(--green);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: var(--navy);
+        padding: 1rem;
+    }
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
